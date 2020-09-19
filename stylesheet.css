@@ -8,3 +8,8 @@ body{
     background-color: rgb(248, 244, 228);
     font-family: 'Permanent Marker', cursive;  
 }
+.fotka{
+    border-color:#555;
+    border-style: solid;
+    border-width: 3px;
+}
