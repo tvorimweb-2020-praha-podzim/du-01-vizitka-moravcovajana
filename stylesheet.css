@@ -13,3 +13,7 @@ body{
     border-style: solid;
     border-width: 3px;
 }
+
+p{
+    font-family: 'Kalam', cursive;
+}
