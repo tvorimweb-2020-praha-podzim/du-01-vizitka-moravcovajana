@@ -1,12 +1,11 @@
 body{
     margin: 0 auto;
     max-width: 100%
-    line-height: 1.5;
-    
     color: #555;
-    background-color: rgb(248, 244, 228);
+    background-color: #F5F5F5;
     font-family: 'Permanent Marker', cursive;  
 }
+
 .fotka{
     border-color:#555;
     border-style: solid;
@@ -33,7 +32,7 @@ text-align: center;
 display: inline-block;
 padding: 1em 12em;
 background-color: 
-margin:auto 0;
+margin: auto 0;
 border-style: none solid;
 border-radius: 3%;
 border-color:#555;
@@ -60,6 +59,10 @@ nav div{
 }
 
 nav li:hover{
-    background-color: lemonchiffon;
+    background-color: #FFFAF0;
+}
+
+section{
+    border-bottom: tomato;
 }
 
