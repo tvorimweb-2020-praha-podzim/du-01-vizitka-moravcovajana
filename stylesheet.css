@@ -1,9 +1,9 @@
-body{
-    margin: 0 auto;
+body {
+    margin: 2px;
     max-width: 100%
     color: #555;
     background-color: #F5F5F5;
-    font-family: 'Permanent Marker', cursive;  
+    font-family: 'Permanent Marker', cursive;
 }
 
 .fotka{
@@ -31,19 +31,19 @@ nav li{
 text-align: center;
 display: inline-block;
 padding: 1em 12em;
-background-color: 
+background-color: #F5F5F5;
 margin: auto 0;
 border-style: none solid;
 border-radius: 3%;
 border-color:#555;
 border-width: 1px;
-
 }
 
 nav{
-    border-style: solid;
+    border-style: solid none;
     border-width: 1px;
-    margin: 0;    
+    margin: 0; 
+    text-align: center;   
 }
 
 nav ul{
@@ -53,13 +53,10 @@ nav ul{
     list-style-type: none;
     
 }
-nav div{
-    text-align: center;
-    padding: 0;
-}
+
 
 nav li:hover{
-    background-color: #FFFAF0;
+    background-color: #555;
 }
 
 section{

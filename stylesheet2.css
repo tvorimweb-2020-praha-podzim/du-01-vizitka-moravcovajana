@@ -1,13 +1,66 @@
-body{
-    margin: 0 auto;
+body {
+    margin: 2px;
     max-width: 100%
     color: #555;
     background-color: #F5F5F5;
-    font-family: 'Permanent Marker', cursive; 
-    text-align: center; 
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
 }
 
+.fotka{
+    border-color:#555;
+    border-style: solid;
+    border-width: 3px;
+    float: left;
+    margin: 0rem 3rem; 
+    border-radius: 50%;
+}
+
+p{
+    font-family: 'Kalam', cursive;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+}
 a{
     color: crimson;
     text-decoration: none;
 }
+nav li{
+text-align: center;
+display: inline-block;
+padding: 1em 12em;
+background-color: #F5F5F5;
+margin: auto 0;
+border-style: none solid;
+border-radius: 3%;
+border-color:#555;
+border-width: 1px;
+}
+
+nav{
+    border-style: solid none;
+    border-width: 1px;
+    margin: 0; 
+    text-align: center;   
+}
+
+nav ul{
+    padding: 0;
+    display: block;
+    margin:0;
+    list-style-type: none;
+    
+}
+
+
+nav li:hover{
+    background-color: #555;
+}
+
+section{
+    border-bottom: tomato;
+}
+
