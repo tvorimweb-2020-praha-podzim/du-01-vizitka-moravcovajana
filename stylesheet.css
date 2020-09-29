@@ -8,7 +8,7 @@ html{
 
 body {
     margin: 2px;
-    max-width: 100%
+    max-width: 100%;
     color: #555;
     background-color: #F5F5F5;
     font-family: 'Permanent Marker', cursive;
@@ -34,11 +34,11 @@ h1{
 a{
     color: crimson;
     text-decoration: none;
+    
 }
 nav li{
     text-align: center;
     display: inline-block;
-    padding: 1em 12em;
     background-color: #F5F5F5;
     margin: auto 0;
     border-style: none solid;
@@ -62,6 +62,11 @@ nav li{
         list-style-type: none;
         font-size: 0;
         
+    }
+
+    nav a{
+        display: block;
+        padding: 1em 12em;
     }
 
 
